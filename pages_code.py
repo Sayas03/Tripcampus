@@ -11,7 +11,7 @@ HOME_FAQ = [tuple(x) for x in DATA['home']['faq']]; COLLEGES = DATA['home']['col
 IV = DATA['iv']; GUIDES = DATA['guides']; CHECKLIST = [tuple(x) for x in DATA['checklist']]; PUBLISHED = DATA.get('published', LASTMOD)
 import hashlib
 def _ver(rel):
-    try: return '?v=' + hashlib.md5(open(OUT + '/' + rel, 'rb').read()).hexdigest()[:8]
+    try: return '?v=' + hashlib.md5(open(ASSETS + '/' + rel, 'rb').read()).hexdigest()[:8]
     except OSError: return ''
 V_CSS = _ver('assets/css/style.css'); V_JS = _ver('assets/js/main.js')
 SERV = DATA['services']; IM = DATA['images']; OGCARDS = set(DATA.get('ogCards', []))
