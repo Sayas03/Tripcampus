@@ -118,6 +118,20 @@ sudo tc-admin test-email
 - **Packages**: add, edit, day-by-day plan, "from ₹" price, cover photo, homepage slider, Google title and description, publish/unpublish, delete.
 - **Destinations**, **Gallery** (photo upload in Chrome or Edge), **Enquiries** (status, WhatsApp/call links, CSV), **Settings** (contact details, GA4 and Meta Pixel IDs, homepage photo, password change).
 
+## Destination cover photos (package pages and homepage slider)
+
+High-resolution photos of the places, from Wikimedia Commons (free licences only; credits are listed automatically on /photo-credits.html):
+
+```bash
+sudo apt-get install -y python3-pil
+sudo python3 deploy/place_photos.py find --min 4000   # then open https://www.tripcampustourism.com/photo-picks/
+sudo python3 deploy/place_photos.py search 5 "Om Beach Gokarna" --min 5000   # new search for one package
+sudo python3 deploy/place_photos.py apply auto    # or pick: apply 1=2 3=4 ...
+sudo python3 deploy/place_photos.py undo          # back to the previous covers
+```
+
+The gallery keeps the real trip photos. A cover can also be changed one package at a time in the admin (Packages → cover photo).
+
 ## Server commands
 
 | Task | Command |
