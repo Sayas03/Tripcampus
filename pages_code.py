@@ -18,6 +18,7 @@ SERV = DATA['services']; IM = DATA['images']; OGCARDS = set(DATA.get('ogCards', 
 COMMON = list(C_.get('included', [])) or ["Rooms on 4-bed share basis", "Toll, parking and taxes", "Three unlimited meals a day (chicken is limited)", "All entry tickets", "Drinking water"]
 WARN = []
 def _img(k): return k if (k and k in IM) else None
+def alt(key, d): return ((IM.get(str(key)) or {}).get('alt') if key else None) or d
 PACKS = []
 for _p in DATA['packages']:
     if _p.get('status', 'Published') != 'Published' or not _p.get('name') or not _p.get('days'): continue
@@ -41,6 +42,8 @@ GALLERY = [g for g in DATA['gallery'] if g.get('key') in IM]
 CAP = {g['key']: g['cap'] for g in GALLERY}
 GAL = [(g['key'], g['dest']) for g in GALLERY if g.get('dest') in DID]
 HOMEKEY = _img(DATA['home'].get('heroKey')) or (GALLERY[0]['key'] if GALLERY else None)
+_USED = {p['hero'] for p in PACKS} | {d.get('img') for d in DEST} | {g['key'] for g in GALLERY} | {HOMEKEY}
+CREDITS = [m for k, m in IM.items() if m.get('credit') and k in _USED]
 IVKEY = _img('c3') or HOMEKEY
 def dslug(d): return d['id']
 def J(o): return json.dumps(o, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
@@ -120,7 +123,7 @@ def enquiry_form(fid, pack_name=None):
 def card(p, i, sizes='(min-width:1024px) 33vw, (min-width:640px) 50vw, 85vw'):
     tags = ' '.join(p['tags'] + ['d%d' % p['ndays'], 'short' if p['ndays'] <= 3 else 'long'])
     return f'''<article class="card" data-tags="{tags}">
-  <div class="card-img">{pic(p["hero"], "A Trip Campus group on the " + p["name"] + " tour", sizes) if p["hero"] else art(pstops(p))}<span class="badge">{E(p["len"])}</span></div>
+  <div class="card-img">{pic(p["hero"], alt(p["hero"], "A Trip Campus group on the " + p["name"] + " tour"), sizes) if p["hero"] else art(pstops(p))}<span class="badge">{E(p["len"])}</span></div>
   <div class="card-body"><small>{E(p["place"])}</small>
     <h3><a href="{R}packages/{p["slug"]}.html">{E(p["name"])}</a></h3>
     <p>{E(p["sum"])}</p>
@@ -180,7 +183,7 @@ def page(path, title, desc, body, og=None, ld=(), active='', extra_head='', robo
     <div><h2>Kerala trips</h2><ul>{"".join(f'<li><a href="{R}packages/{p["slug"]}.html">{E(p["name"])}</a></li>' for p in PACKS[6:])}<li><a href="{R}destinations/index.html">All destinations</a></li></ul></div>
     <div><h2>Contact</h2><ul>{"".join(f'<li><a href="tel:{t}" data-loc="footer">{n}</a></li>' for t, n in PHONES)}<li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram @tripcampus.co</a></li></ul></div>
   </div>
-  <div class="ftr-base"><span>© <span id="year">2026</span> {LEGAL}</span><span><a href="{R}{IV['slug']}.html">IV and study tours</a> · <a href="{R}guides/index.html">Guides</a> · <a href="{R}services.html">Services</a> · <a href="{R}gallery.html">Gallery</a> · <a href="{R}contact.html">Contact</a></span></div>
+  <div class="ftr-base"><span>© <span id="year">2026</span> {LEGAL}</span><span><a href="{R}{IV['slug']}.html">IV and study tours</a> · <a href="{R}guides/index.html">Guides</a> · <a href="{R}services.html">Services</a> · <a href="{R}gallery.html">Gallery</a> · <a href="{R}contact.html">Contact</a>{(' · <a href="' + R + 'photo-credits.html">Photo credits</a>') if CREDITS else ''}</span></div>
 </div></footer>
 <nav class="bar" aria-label="Quick contact">
   <a href="tel:{PHONES[0][0]}" data-loc="bar">{ICO["call"]}Call</a>
@@ -216,7 +219,7 @@ brand = f'''<article class="slide" aria-roledescription="slide" aria-label="1 of
       <a class="btn" href="{waurl("Hi Trip Campus, I would like to plan a college tour.")}" data-wa="Hi Trip Campus, I would like to plan a college tour." data-loc="hero" target="_blank" rel="noopener">{ICO["wa"]}Get a quote</a></div>
   </div></div></article>'''
 slides = brand + ''.join(f'''<article class="slide" aria-roledescription="slide" aria-label="{i+2} of {len(HP)+1}: {E(p["name"])}">
-  {pic(p["hero"], "A Trip Campus group on the " + p["name"] + " tour", HS)}
+  {pic(p["hero"], alt(p["hero"], "A Trip Campus group on the " + p["name"] + " tour"), HS)}
   <div class="slide-body"><div>
     <span class="place">{E(p["place"])}</span>
     <h2><span>{E(p["t"][0])}</span><span>{E(p["t"][1])}</span></h2>
@@ -336,7 +339,7 @@ for i, p in enumerate(PACKS):
     who = ('Planned for college groups, and booked by many Kerala colleges as an IV (industrial visit) or study tour. Groups travel with a dedicated tourist bus, and teachers can travel with the class.'
            if p['audience'] == 'College groups' else 'Planned for families and friends groups, and also suitable for a short college trip. The group travels together in a dedicated tourist bus from your starting point.')
     related = [q for q in PACKS if q is not p and set(q['tags']) & set(p['tags'])][:3]
-    body = f'''<section class="phero{"" if p["hero"] else " noimg"}">{pic(p["hero"], "A Trip Campus group on the " + p["name"] + " tour", HS, eager=True) if p["hero"] else art(pstops(p), "art big")}
+    body = f'''<section class="phero{"" if p["hero"] else " noimg"}">{pic(p["hero"], alt(p["hero"], "A Trip Campus group on the " + p["name"] + " tour"), HS, eager=True) if p["hero"] else art(pstops(p), "art big")}
   <div class="wrap">{crumbs_html(cr)}<span class="eyebrow" style="margin-top:14px">{E(p["place"])} · {E(p["audience"])}</span>
   <h1>{E(p["name"])} tour package</h1><p class="sub">{E(p["sum"])}</p></div></section>
 <div class="wrap">
@@ -402,7 +405,7 @@ for d in DEST:
              ' '.join(f'On the {p["name"]} tour ({p["len"]}), the route is {p["route"]}.' for p in dp[:3]) +
              ' The train or bus, stay and meals are arranged for the whole group.')
     cr = [('Home', '../index.html', SITE + '/'), ('Destinations', 'index.html', SITE + '/destinations/'), (d['name'], None, f'{SITE}/{path}')]
-    heroimg = pic(d['img'], f'A Trip Campus group in {d["name"]}', HS, eager=True) if d['img'] is not None else art([d['name']], 'art big')
+    heroimg = pic(d['img'], alt(d['img'], f'A Trip Campus group in {d["name"]}'), HS, eager=True) if d['img'] is not None else art([d['name']], 'art big')
     body = f'''<section class="phero{"" if d["img"] else " noimg"}">{heroimg}<div class="wrap">{crumbs_html(cr)}<span class="eyebrow" style="margin-top:14px">{E(d["state"])} · {E(d["type"])}</span>
   <h1>{E(d["name"])} tour packages</h1><p class="sub">{E(d["hook"])}</p></div></section>
 <section class="sec"><div class="wrap layout">
@@ -498,7 +501,7 @@ page('contact.html', 'Contact Trip Campus Tourism, Edappal – Get a Tour Quote'
      body, ld=[crumbs_ld(cr), {"@type": "ContactPage", "url": SITE + "/contact.html", "about": {"@id": SITE + "/#org"}}], active='Contact')
 
 # ======================= 404 =======================
-depth('404.html')
+depth('404.html'); R = '/'   # absolute links: the 404 page is shown at any address, e.g. /photo-picks/
 page('404.html', 'Page not found | Trip Campus', 'This page could not be found.', f'''<section class="sec"><div class="wrap"><span class="eyebrow">Error 404</span><h1>Page not found</h1>
 <p class="lead">The page may have moved. Try the tour packages or contact us.</p><div class="btns"><a class="btn btn-fill" href="/packages/index.html">Tour packages</a><a class="btn" href="/index.html">Home</a></div></div></section>''', robots='noindex,follow')
 
@@ -625,6 +628,12 @@ for gd in GUIDES:
               "image": SITE + '/assets/og/trip-campus.jpg', "inLanguage": "en-IN"}
     page(path, gd['title'], gd['desc'], body, ld=[crumbs_ld(cr), art_ld], active='Guides')
 
+
+if CREDITS:
+    depth('photo-credits.html')
+    rows = ''.join(f'<li><a href="{E(m["credit"].get("url", ""))}" target="_blank" rel="noopener nofollow">{E(m.get("alt") or m["slug"])}</a> – photo by {E(m["credit"].get("author") or "unknown")}, licence {E(m["credit"].get("license") or "")}, via Wikimedia Commons (resized)</li>' for m in CREDITS)
+    page('photo-credits.html', 'Photo credits | Trip Campus Tourism', 'Credits for the destination photos used on the Trip Campus website.',
+         f'''<section class="sec pbasic"><div class="wrap"><h1>Photo credits</h1><p class="lead">Destination photos on this site come from Wikimedia Commons and are used under the licences listed. Photos of our groups are Trip Campus's own.</p><ul style="margin-top:24px;line-height:1.9">{rows}</ul></div></section>''', robots='noindex,follow')
 
 def prio(pth): return '1.0' if pth == 'index.html' else '0.9' if pth.startswith('packages/') or pth.startswith('iv-') else '0.6' if pth.startswith('guides/') else '0.7' if pth.startswith('destinations/') else '0.6'
 urls = ''.join(f'<url><loc>{SITE}/{"" if pth == "index.html" else pth.replace("index.html", "")}</loc><lastmod>{LASTMOD}</lastmod><priority>{prio(pth)}</priority></url>\n' for pth in pages)
