@@ -1,0 +1,1523 @@
+{
+ "version": 1,
+ "settings": {
+  "site": "https://www.tripcampustourism.com",
+  "brand": "Trip Campus",
+  "legal": "Trip Campus Travel & Tourism",
+  "whatsapp": "918943299434",
+  "phones": [
+   {
+    "tel": "+918943299434",
+    "label": "+91 89432 99434"
+   },
+   {
+    "tel": "+919895752577",
+    "label": "+91 98957 52577"
+   },
+   {
+    "tel": "+919207602009",
+    "label": "+91 92076 02009"
+   },
+   {
+    "tel": "+919605765371",
+    "label": "+91 96057 65371"
+   }
+  ],
+  "email": "tripcampusedpl@gmail.com",
+  "instagram": "https://www.instagram.com/tripcampus.co",
+  "address": {
+   "street": "Near CM Restaurant, Nellissery",
+   "locality": "Edappal",
+   "region": "Kerala",
+   "postal": "679578",
+   "country": "IN"
+  },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Tripcampus+Tourism+Nellissery+Edappal+679578",
+  "ga4": "",
+  "metaPixel": ""
+ },
+ "home": {
+  "heroKey": "c14",
+  "faq": [
+   [
+    "Does Trip Campus plan tours for college groups?",
+    "Yes. Most Trip Campus packages are planned for college groups travelling from Kerala, with train or bus travel, stay, three meals a day, entry tickets and sightseeing arranged for the whole group. Family and friends groups can book the shorter Kerala trips too."
+   ],
+   [
+    "What is included in a Trip Campus package?",
+    "Rooms on a share basis, a tourist bus for the whole route, three unlimited meals a day (chicken is limited), all entry tickets, and toll, parking and taxes. Train packages include the train tickets. Camera fees inside monuments, travel insurance and personal expenses are not included."
+   ],
+   [
+    "Where do the trips start?",
+    "Train packages start from Thrissur, Kuttippuram or Shornur railway stations. One Karnataka package starts with pickup at Mangalore railway station, and the Kerala hill trips leave by bus from your college. The boarding point can be fixed with each group."
+   ],
+   [
+    "How much does a package cost?",
+    "The price depends on the package, group size, travel dates and boarding point. Send your group details on WhatsApp or call and Trip Campus will share the itinerary and a quote."
+   ],
+   [
+    "How do we book?",
+    "Message Trip Campus on WhatsApp or call any of the numbers on this site with your group size and preferred month. Payment can be made by Google Pay or bank transfer."
+   ],
+   [
+    "Does Trip Campus offer other travel services?",
+    "Yes. Trip Campus Tourism is an IATA accredited agent and also books flights and hotels, arranges car rentals and travel insurance, and helps with visas, passports, certificate attestation and Hajj and Umrah travel."
+   ]
+  ],
+  "colleges": [
+   "MES KVM Arts & Science College, Valanchery",
+   "Assabah Arts & Science College, Valayamkulam",
+   "Vidya Academy of Science & Technology, Thrissur",
+   "Mar Osthatheos College, Perumbilavu",
+   "Govt Polytechnic College, Kunnamkulam",
+   "Al Shifa College of Allied Healthcare, Perinthalmanna",
+   "Srinivas University, Mangalore",
+   "PACIOLI Gurukul Campus, Valanchery"
+  ]
+ },
+ "packages": [
+  {
+   "id": "dandeli-goa-train-tour",
+   "slug": "dandeli-goa-train-tour",
+   "status": "Published",
+   "name": "Dandeli + Goa by Train",
+   "place": "Karnataka · Goa",
+   "t": [
+    "Dandeli",
+    "& Goa"
+   ],
+   "len": "5 days",
+   "ndays": 5,
+   "via": "by train from Thrissur",
+   "audience": "College groups",
+   "tags": [
+    "train"
+   ],
+   "route": "Thrissur · Mangalore · Dandeli · Old Goa · North Goa",
+   "sum": "A river-adventure day in the Dandeli forest followed by two days of Goa's churches, forts and beaches.",
+   "facts": [
+    "Parasuram Express",
+    "Non-AC Karnataka tourist bus",
+    "AC deluxe rooms in Goa"
+   ],
+   "days": [
+    "Board the Parasuram Express at Thrissur at noon. Reach Mangalore Central by night, dinner at Udupi, overnight drive to Dandeli.",
+    "Dandeli: raft boating, kayaking, zorbing, hanging log, zig-zag bridge, quake walk and land zip line. Backwaters and Eco Moulangi after lunch, then indoor games, swimming, rain dance with DJ and a campfire. Stay in Dandeli.",
+    "Morning trek, then drive to Old Goa for St Augustine Tower, the Old Goa church and the Archaeological Museum. Evening at Baga Beach and Tito's Lane. Stay in North Goa.",
+    "Pool time, then Aguada Fort, Chapora Fort, Vagator, Anjuna and Calangute beaches. Shopping, dinner and the overnight drive to Mangalore.",
+    "Early Parasuram Express from Mangalore. Arrive Thrissur by 11:30 AM."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "34 or 49-seat non-AC Karnataka tourist bus"
+   ],
+   "price": null,
+   "hero": "c3",
+   "inHero": true,
+   "title": "Dandeli & Goa Tour by Train from Kerala – 5 Days",
+   "desc": "5-day Dandeli and Goa tour from Thrissur by train: rafting, kayaking and a campfire in Dandeli, then Old Goa, forts and beaches. Stay and meals included.",
+   "from": "Thrissur"
+  },
+  {
+   "id": "hampi-dandeli-goa-tour",
+   "slug": "hampi-dandeli-goa-tour",
+   "status": "Published",
+   "name": "Hampi + Dandeli + Goa",
+   "place": "Karnataka · Goa",
+   "t": [
+    "Hampi",
+    "Dandeli & Goa"
+   ],
+   "len": "6 days",
+   "ndays": 6,
+   "via": "by train from Kuttippuram",
+   "audience": "College groups",
+   "tags": [
+    "train"
+   ],
+   "route": "Kuttippuram · Mangalore · Hampi · Dandeli · Goa",
+   "sum": "The same Dandeli and Goa circuit with a full day among the Vijayanagara ruins at Hampi added at the start.",
+   "facts": [
+    "Train to Mangalore, second seating",
+    "Non-AC Karnataka tourist bus",
+    "AC deluxe rooms in Goa"
+   ],
+   "days": [
+    "Train from Kuttippuram to Mangalore Central in the afternoon. Dinner and overnight drive to Hampi.",
+    "Hampi: Vijaya Vittala Temple, Stone Chariot, Lotus Mahal and Elephant Stable. After lunch, Queen's Bath, sunset at Monkey Temple, Virupaksha Temple and Hampi Bazaar. Overnight drive to Dandeli.",
+    "Dandeli: raft boating, kayaking and zorbing, with hanging log, zig-zag bridge, quake walk and zip line complimentary. Backwaters, Eco Moulangi, resort games, swimming, rain dance with DJ and a campfire. Stay in Dandeli.",
+    "Morning trek, then drive to Goa. Old Goa church and St Augustine Tower, Baga Beach and Tito's Lane in the evening. Stay in North Goa.",
+    "Pool time, then Aguada Fort, Chapora Fort, Vagator, Anjuna and Calangute beaches. Shopping, dinner and the overnight drive to Mangalore.",
+    "Ernad Express from Mangalore Central at 7:20 AM. Reach Kuttippuram by 12:30 PM."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "49-seat non-AC Karnataka tourist bus"
+   ],
+   "price": null,
+   "hero": "c13",
+   "inHero": true,
+   "title": "Hampi, Dandeli & Goa Tour from Kerala – 6 Days",
+   "desc": "6-day college tour from Kuttippuram: Hampi's ruins, Dandeli river adventure and Goa's beaches and forts. Train, bus, stay, meals and tickets included.",
+   "from": "Kuttippuram"
+  },
+  {
+   "id": "lonavala-matheran-mumbai-tour",
+   "slug": "lonavala-matheran-mumbai-tour",
+   "status": "Published",
+   "name": "Lonavala + Matheran + Mumbai",
+   "place": "Maharashtra",
+   "t": [
+    "Lonavala",
+    "Matheran & Mumbai"
+   ],
+   "len": "5D / 4N",
+   "ndays": 5,
+   "via": "by train from Shornur",
+   "audience": "College groups",
+   "tags": [
+    "train"
+   ],
+   "route": "Shornur · Pune · Lonavala · Matheran · Mumbai · Panvel",
+   "sum": "Two Sahyadri hill stations and two days in Mumbai, travelling by sleeper train from Kerala.",
+   "facts": [
+    "ERS–Pune SF Express, sleeper",
+    "30-seat non-AC tourist bus",
+    "Toy train subject to availability"
+   ],
+   "days": [
+    "Board the ERS–Pune SF Express at Shornur in the morning. A full day and overnight on the train.",
+    "Arrive Pune before dawn and drive to Lonavala. Lohagad Fort and Bhaja Caves, then Bhushi Dam, Tiger Point and sunset at Khandala Point. Stay in Lonavala.",
+    "Drive to Matheran via Aman Lodge, with the toy train if available. Malang Point, Sunset Point, Louisa Point, Echo Point, King George Point, Charlotte Lake and Lord Point. Stay in Matheran.",
+    "On to Mumbai: art gallery, Gateway of India, the Taj hotel, Chhatrapati Shivaji Maharaj Terminus, Colaba market and Marine Drive. Stay in Mumbai.",
+    "Elephanta Caves (ferry at own cost), Bandra–Worli Sea Link, Juhu Beach and Mohammed Ali Road as time allows. 8:35 PM train from Panvel, reaching Shornur the next evening."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "30-seat non-AC tourist bus"
+   ],
+   "price": null,
+   "hero": null,
+   "inHero": false,
+   "title": "Lonavala, Matheran & Mumbai Tour from Kerala – 5D/4N",
+   "desc": "5-day tour from Shornur by sleeper train: Lohagad Fort and Bhaja Caves, car-free Matheran and two days in Mumbai. Stay, meals and tickets included.",
+   "from": "Shornur"
+  },
+  {
+   "id": "chikmagalur-dandeli-goa-tour",
+   "slug": "chikmagalur-dandeli-goa-tour",
+   "status": "Published",
+   "name": "Chikmagalur + Dandeli + Goa",
+   "place": "Karnataka · Goa",
+   "t": [
+    "Chikmagalur",
+    "Dandeli & Goa"
+   ],
+   "len": "6 days",
+   "ndays": 6,
+   "via": "by train from Thrissur",
+   "audience": "College groups",
+   "tags": [
+    "train"
+   ],
+   "route": "Thrissur · Mangalore · Chikmagalur · Dandeli · Old Goa · North Goa",
+   "sum": "A jeep day on the peaks of Chikmagalur, a river-adventure day in Dandeli and two days of Goa's churches, forts and beaches.",
+   "facts": [
+    "Parasuram Express",
+    "Jeep safari in Chikmagalur",
+    "AC deluxe rooms in Goa"
+   ],
+   "days": [
+    "Board the Parasuram Express at Thrissur at noon. Reach Mangalore Central by 9:10 PM, dinner at Udupi, overnight drive to Chikmagalur.",
+    "Chikmagalur by jeep: Siri Cafe, Mullayanagiri Peak, Seethalayanagiri and Honnamana Falls. Lunch at the hill station, then Kavikal Gandi, Shooting Point, Baba Budangiri and Z Point. Dinner and overnight drive to Dandeli.",
+    "Dandeli: raft boating, kayaking and zorbing, with hanging log, zig-zag bridge, quake walk and zip line complimentary. Backwaters and Eco Moulangi after lunch, then indoor games, swimming, rain dance with DJ and a campfire. Stay in Dandeli.",
+    "Morning trek, then drive to Old Goa. Old Goa church and St Augustine Tower, Calangute and Baga beaches, and Tito's Lane after dark. Stay in Goa.",
+    "Pool time, then Aguada Fort, Chapora Fort, Vagator and Anjuna beaches. Shopping, dinner and the overnight drive to Mangalore.",
+    "Early Parasuram Express from Mangalore. Arrive Thrissur by 11:30 AM."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "Dandeli stay shared as per the property",
+    "49-seat non-AC Kerala tourist bus"
+   ],
+   "price": null,
+   "hero": "r0",
+   "inHero": true,
+   "title": "Chikmagalur, Dandeli & Goa Tour from Kerala – 6 Days",
+   "desc": "6-day train tour from Thrissur: jeep safari to Mullayanagiri, rafting and a campfire in Dandeli, then two days in Goa. Stay, meals and tickets included.",
+   "from": "Thrissur"
+  },
+  {
+   "id": "chikmagalur-dandeli-gokarna-tour",
+   "slug": "chikmagalur-dandeli-gokarna-tour",
+   "status": "Published",
+   "name": "Chikmagalur + Dandeli + Gokarna",
+   "place": "Karnataka",
+   "t": [
+    "Chikmagalur",
+    "Dandeli & Gokarna"
+   ],
+   "len": "5 days",
+   "ndays": 5,
+   "via": "with pickup at Mangalore railway station",
+   "audience": "College groups",
+   "tags": [
+    "bus"
+   ],
+   "route": "Mangalore · Chikmagalur · Dandeli · Mirjan Fort · Gokarna",
+   "sum": "Karnataka's coffee hills, the Kali River and the beaches of Gokarna, with pickup and drop at Mangalore railway station.",
+   "facts": [
+    "Jeep trekking in Chikmagalur",
+    "Tour guide included",
+    "21-seat non-AC Karnataka tourist bus"
+   ],
+   "days": [
+    "Meet at Mangalore railway station at 9:00 PM. Dinner, then the overnight drive to Chikmagalur.",
+    "Chikmagalur by jeep: Siri Cafe, Mullayanagiri Peak, Seethalayanagiri and Honnamana Falls. Lunch at the hill station, then Kavikal Gandi, Shooting Point, Baba Budangiri and Z Point. Dinner and overnight drive to Dandeli.",
+    "Dandeli: raft boating, kayaking and zorbing, with hanging log, zig-zag bridge, quake walk and land zip line complimentary. Backwaters and Eco Moulangi after lunch, then resort check-in, indoor games, swimming, rain dance with DJ and a campfire. Stay in Dandeli.",
+    "Morning trek, then drive to Gokarna with a stop at Mirjan Fort. Om Beach, Kudle Beach and sunset, with Murudeshwar optional. Dinner and the overnight drive to Mangalore.",
+    "Drop at Mangalore Central railway station by 4:00 AM."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "Dandeli stay shared as per the property",
+    "21-seat non-AC Karnataka tourist bus",
+    "Tour guide"
+   ],
+   "price": null,
+   "hero": null,
+   "inHero": false,
+   "title": "Chikmagalur, Dandeli & Gokarna Tour – 5 Days",
+   "desc": "5-day tour from Mangalore station: Chikmagalur peaks by jeep, Dandeli river activities and Om Beach, Gokarna. Bus, guide, stay and meals included.",
+   "from": "Mangalore"
+  },
+  {
+   "id": "dandeli-gokarna-train-tour",
+   "slug": "dandeli-gokarna-train-tour",
+   "status": "Published",
+   "name": "Dandeli + Gokarna by Train",
+   "place": "Karnataka coast",
+   "t": [
+    "Dandeli",
+    "& Gokarna"
+   ],
+   "len": "4 days",
+   "ndays": 4,
+   "via": "by train from Kuttippuram",
+   "audience": "College groups",
+   "tags": [
+    "train"
+   ],
+   "route": "Kuttippuram · Mangalore · Dandeli · Yana · Gokarna · Murudeshwar",
+   "sum": "A short train trip: one day of river activities in Dandeli and one day of caves, beaches and Murudeshwar on the Karnataka coast.",
+   "facts": [
+    "Eranad Express, second seating",
+    "25-seat non-AC Karnataka tourist bus",
+    "Murudeshwar temple and beach"
+   ],
+   "days": [
+    "Eranad Express from Kuttippuram at 11:20 AM. Reach Mangalore Central by 5:40 PM, dinner, then the overnight drive to Dandeli.",
+    "Dandeli: raft boating, kayaking and zorbing, with hanging log, zig-zag bridge, quake walk and land zip line complimentary. Backwaters and Eco Moulangi after lunch, then indoor games, swimming, rain dance with DJ and a campfire. Stay in Dandeli.",
+    "Drive to Gokarna with breakfast on the way. Yana Caves, with Mirjan Fort optional. After lunch, Om Beach, Kudle Beach (optional) and sunset, then Murudeshwar beach and temple. Dinner and the drive on to Mangalore.",
+    "Eranad Express from Mangalore at 7:20 AM. Reach Kuttippuram by 12:30 PM."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "Dandeli stay shared as per the property",
+    "25-seat non-AC Karnataka tourist bus"
+   ],
+   "price": null,
+   "hero": "r1",
+   "inHero": true,
+   "title": "Dandeli & Gokarna Tour by Train from Kerala – 4 Days",
+   "desc": "4-day college trip from Kuttippuram by train: Dandeli rafting and kayaking, then Yana Caves, Om Beach and Murudeshwar. Stay and meals included.",
+   "from": "Kuttippuram"
+  },
+  {
+   "id": "munnar-vattavada-tour",
+   "slug": "munnar-vattavada-tour",
+   "status": "Published",
+   "name": "Munnar + Vattavada",
+   "place": "Idukki · Kerala",
+   "t": [
+    "Munnar",
+    "& Vattavada"
+   ],
+   "len": "3 days",
+   "ndays": 3,
+   "via": "by tourist bus from your college",
+   "audience": "Families and groups",
+   "tags": [
+    "bus"
+   ],
+   "route": "Adimali · Munnar · Gap Road · Vattavada",
+   "sum": "Tea-garden viewpoints and an infinity-pool resort in Munnar, then a jeep trek to the falls and farms of Vattavada.",
+   "facts": [
+    "Overnight bus both ways",
+    "Infinity-pool resort",
+    "Jeep trekking in Vattavada"
+   ],
+   "days": [
+    "Leave college at 9:00 PM for the overnight drive to Munnar.",
+    "Reach Adimali by 6:00 AM to freshen up. Tea garden viewpoint, Shooting Point, Gap Road and Signal Point. After lunch, resort check-in: infinity pool, indoor and outdoor games and a walking trek. Dinner and a campfire. Stay in Munnar.",
+    "Drive to Vattavada after breakfast. Jeep trekking after lunch: Chilanthiyar Falls, Pazhathottam viewpoint, Shooting Point, Vattavada Falls and the vegetable and fruit farms. Shopping, dinner and the overnight drive back."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets",
+    "Drinking water",
+    "34-seat non-AC Kerala tourist bus"
+   ],
+   "price": null,
+   "hero": null,
+   "inHero": false,
+   "title": "Munnar & Vattavada Tour Package – 3 Days",
+   "desc": "3-day Munnar and Vattavada trip by bus: tea garden viewpoints, Gap Road, an infinity-pool resort and a jeep trek to Vattavada falls. Stay and meals included.",
+   "from": "your college"
+  },
+  {
+   "id": "wayanad-900-woods-tour",
+   "slug": "wayanad-900-woods-tour",
+   "status": "Published",
+   "name": "Wayanad 900 Woods",
+   "place": "Western Ghats · Kerala",
+   "t": [
+    "Wayanad",
+    "900 Woods"
+   ],
+   "len": "3 days",
+   "ndays": 3,
+   "via": "by tourist bus from your college",
+   "audience": "Families and groups",
+   "tags": [
+    "bus"
+   ],
+   "route": "Lakkidi · En Ooru · 900 Woods · Pookode · Banasura Sagar",
+   "sum": "A jeep safari into the 900 Woods forest for a resort night with a pool, trekking and a campfire, with Wayanad's lake and dam on the way back.",
+   "facts": [
+    "Overnight bus both ways",
+    "Jeep safari to 900 Woods",
+    "Glass bridge optional"
+   ],
+   "days": [
+    "Leave college at night for the overnight drive to Wayanad.",
+    "Reach Wayanad by 5:00 AM to freshen up. Lakkidi View Point and En Ooru tribal village. After lunch, jeep safari to 900 Woods and resort check-in: forest trekking, swimming pool, tea and snacks, campfire and music. Stay in Wayanad.",
+    "Glass bridge (optional), then check out and take the jeep back down. After lunch, Pookode Lake, Banasura Sagar Dam and Karapuzha park. Dinner and the overnight drive back."
+   ],
+   "inc": [
+    "Rooms on 4 or 5-bed share basis, non-AC",
+    "49-seat non-AC Kerala tourist traveller",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets"
+   ],
+   "price": null,
+   "hero": null,
+   "inHero": false,
+   "title": "Wayanad 900 Woods Tour Package – 3 Days",
+   "desc": "3-day Wayanad trip by bus: Lakkidi viewpoint, jeep safari to a 900 Woods forest resort with pool and campfire, Pookode Lake and Banasura Sagar Dam.",
+   "from": "your college"
+  },
+  {
+   "id": "ramakkalmedu-kodaikanal-tour",
+   "slug": "ramakkalmedu-kodaikanal-tour",
+   "status": "Published",
+   "name": "Ramakkalmedu + Kodaikanal",
+   "place": "Kerala · Tamil Nadu",
+   "t": [
+    "Ramakkalmedu",
+    "& Kodaikanal"
+   ],
+   "len": "3 days",
+   "ndays": 3,
+   "via": "by tourist bus from your college",
+   "audience": "College groups",
+   "tags": [
+    "bus"
+   ],
+   "route": "Ramakkalmedu · Cumbum · Theni · Kodaikanal",
+   "sum": "A jeep safari and sunset on the Ramakkalmedu ridge, then across to Kodaikanal for its caves, cliffs, pine forest and lake.",
+   "facts": [
+    "Overnight bus both ways",
+    "Jeep safari in Ramakkalmedu",
+    "Campfire with DJ"
+   ],
+   "days": [
+    "Leave college at 8:00 PM for the overnight drive to Ramakkalmedu.",
+    "Reach Ramakkalmedu by 6:00 AM to freshen up. Jeep safari to Amappara, the Amappara caves, Kattadippara and the Ramankallu viewpoint. After lunch, the Kuravan Kurathi statue, a walking trek and sunset at Ramankallu. Campfire with DJ and dinner. Stay in Ramakkalmedu.",
+    "Drive to Kodaikanal via the Cumbum and Theni grape farms if time allows. After lunch, Moir Point, Guna Caves, Pillar Rocks, Suicide Point and the pine forest, then Kodai Lake and shopping. Dinner and the overnight drive back."
+   ],
+   "inc": [
+    "Rooms on 4-bed share basis",
+    "49 or 34-seat non-AC Kerala tourist bus",
+    "Toll, parking and taxes",
+    "Three unlimited meals a day (chicken is limited)",
+    "All entry tickets"
+   ],
+   "price": null,
+   "hero": null,
+   "inHero": false,
+   "title": "Ramakkalmedu & Kodaikanal Tour Package – 3 Days",
+   "desc": "3-day trip by bus: jeep safari and sunset at Ramakkalmedu, then Guna Caves, Pillar Rocks, pine forest and Kodai Lake. Stay, meals and tickets included.",
+   "from": "your college"
+  }
+ ],
+ "destinations": [
+  {
+   "id": "goa",
+   "status": "Published",
+   "name": "Goa",
+   "hook": "The Party Capital",
+   "state": "Goa",
+   "type": "Beach",
+   "img": null,
+   "packs": [
+    "dandeli-goa-train-tour",
+    "hampi-dandeli-goa-tour",
+    "chikmagalur-dandeli-goa-tour"
+   ],
+   "when": "November to February, when the sea is calm and the evenings are cool.",
+   "about": "India's smallest state is a tropical coast of sun-kissed beaches, swaying palms and Portuguese heritage. Its 100-kilometre shoreline runs from busy Calangute and Baga to quiet Agonda and Palolem, with whitewashed churches, colourful markets and seafood in between. After sunset the beach shacks and clubs take over.",
+   "intro": "For a college group, Goa is usually the last and most awaited stop of the trip. Trip Campus packages combine the churches and museum of Old Goa with the forts and beaches of North Goa, and the stay is in AC deluxe rooms on a share basis, close enough to the beaches for an evening out.",
+   "todo": [
+    "Baga Beach and Tito's Lane after dark",
+    "Calangute, Anjuna and Vagator beaches",
+    "Aguada Fort and Chapora Fort",
+    "Old Goa church and St Augustine Tower",
+    "Archaeological Museum, Old Goa",
+    "Shopping before the night drive back"
+   ],
+   "tips": [
+    "Plan beach time for the late afternoon and evening, when the sun is softer.",
+    "Keep a change of clothes and a towel in the bus on beach days.",
+    "Old Goa's churches are places of worship, so dress modestly and keep noise low inside.",
+    "Stick to the group's meeting times at Baga and Calangute, where evenings get crowded."
+   ]
+  },
+  {
+   "id": "dandeli",
+   "status": "Published",
+   "name": "Dandeli",
+   "hook": "The Heaven of Forest",
+   "state": "Karnataka",
+   "type": "Forest & adventure",
+   "img": "r1",
+   "packs": [
+    "dandeli-goa-train-tour",
+    "hampi-dandeli-goa-tour",
+    "chikmagalur-dandeli-goa-tour",
+    "chikmagalur-dandeli-gokarna-tour",
+    "dandeli-gokarna-train-tour"
+   ],
+   "when": "October to February for river activities and forest walks.",
+   "about": "A small town in the Western Ghats of Karnataka, surrounded by dense forest, rolling hills and the Kali River. The Dandeli Wildlife Sanctuary is home to the black panther and the Malabar pied hornbill, and the river is the place for rafting and kayaking. At night the forest comes alive with sound.",
+   "intro": "Dandeli is the adventure day of the Karnataka trips. Groups arrive in the morning after an overnight drive, spend the day on the Kali River and in the forest, and end with a rain dance, DJ and campfire at the resort before moving on.",
+   "todo": [
+    "Raft boating, kayaking and zorbing on the river",
+    "Hanging log, zig-zag bridge, quake walk and zip line",
+    "Backwaters and Eco Moulangi",
+    "Morning trek through the forest",
+    "Rain dance with DJ and a campfire at the resort"
+   ],
+   "tips": [
+    "Wear quick-drying clothes and footwear that can get wet for rafting and kayaking.",
+    "Leave phones and wallets in the bus or a waterproof pouch during water activities.",
+    "Follow the instructors' safety briefing and keep life jackets on throughout.",
+    "Carry mosquito repellent for the evening at the forest resort."
+   ]
+  },
+  {
+   "id": "hampi",
+   "status": "Published",
+   "name": "Hampi",
+   "hook": "The Cultural and Architectural Heritage",
+   "state": "Karnataka",
+   "type": "Heritage",
+   "img": "c0",
+   "packs": [
+    "hampi-dandeli-goa-tour"
+   ],
+   "when": "October to February. The ruins are open-air and summer days are very hot.",
+   "about": "A UNESCO World Heritage Site on the banks of the Tungabhadra River, Hampi was once the capital of the Vijayanagara Empire. Today it is a landscape of ruins, temples and monuments among giant boulders, from the Virupaksha Temple to the Vittala Temple and the Royal Enclosure.",
+   "intro": "Hampi is the history day of the Hampi, Dandeli and Goa tour. The ruins are spread over a wide area, so the group moves between the main sites by bus and on foot, from the Vittala temple complex in the morning to sunset over the boulders in the evening.",
+   "todo": [
+    "Vijaya Vittala Temple and the Stone Chariot",
+    "Lotus Mahal and the Elephant Stable",
+    "Queen's Bath",
+    "Sunset from Monkey Temple",
+    "Virupaksha Temple and Hampi Bazaar"
+   ],
+   "tips": [
+    "Start early: the stone and boulders get very hot by afternoon.",
+    "Wear comfortable walking shoes and a cap, and carry a water bottle.",
+    "Some temples ask visitors to remove footwear, so socks help on hot stone.",
+    "Keep to the group near the river and rocky viewpoints."
+   ]
+  },
+  {
+   "id": "lonavala",
+   "status": "Published",
+   "name": "Lonavala",
+   "hook": "Forts and Valley Views",
+   "state": "Maharashtra",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "lonavala-matheran-mumbai-tour"
+   ],
+   "when": "June to February. The hills are greenest in the monsoon.",
+   "about": "A hill station in the Sahyadri range between Pune and Mumbai, known for old hill forts, rock-cut caves and viewpoints over deep valleys.",
+   "intro": "Lonavala is the first hill stop of the Maharashtra tour, reached by road from Pune after the overnight train. The day mixes a hill fort, ancient rock-cut caves, a dam and valley viewpoints before the group stays the night in Lonavala.",
+   "todo": [
+    "Lohagad Fort",
+    "Bhaja Caves",
+    "Bhushi Dam",
+    "Tiger Point",
+    "Sunset at Khandala Point"
+   ],
+   "tips": [
+    "Lohagad Fort involves a climb of many steps, so wear shoes with good grip.",
+    "In the monsoon the paths can be slippery and misty; follow the guide closely.",
+    "Carry a light rain jacket between June and September.",
+    "Keep snacks and water for the fort climb."
+   ]
+  },
+  {
+   "id": "matheran",
+   "status": "Published",
+   "name": "Matheran",
+   "hook": "The Car-Free Hill Station",
+   "state": "Maharashtra",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "lonavala-matheran-mumbai-tour"
+   ],
+   "when": "October to May for clear views from the points.",
+   "about": "A small hill station in the Sahyadris where motor vehicles are not allowed. You go up from Aman Lodge, by toy train when it is running, and walk red-earth paths between the viewpoints.",
+   "intro": "Matheran is a small hill station where motor vehicles are not allowed, so the group goes up from Aman Lodge by toy train when it is running, and walks between the viewpoints on red-earth paths. It is one of the quieter, greener days of the Maharashtra tour.",
+   "todo": [
+    "Toy train from Aman Lodge (subject to availability)",
+    "Louisa Point and Echo Point",
+    "King George Point, Malang Point and Lord Point",
+    "Charlotte Lake",
+    "Sunset Point"
+   ],
+   "tips": [
+    "Expect a lot of walking between points; comfortable shoes matter more than anywhere else on the trip.",
+    "The toy train depends on availability, so be ready for a walk or a short taxi from Aman Lodge.",
+    "Watch your belongings around the monkeys at viewpoints.",
+    "Keep together on the forest paths between points."
+   ]
+  },
+  {
+   "id": "mumbai",
+   "status": "Published",
+   "name": "Mumbai",
+   "hook": "The City by the Sea",
+   "state": "Maharashtra",
+   "type": "City",
+   "img": null,
+   "packs": [
+    "lonavala-matheran-mumbai-tour"
+   ],
+   "when": "November to February, the cooler and drier months.",
+   "about": "India's biggest city, built along the Arabian Sea. Two days cover the colonial landmarks of South Mumbai, the sea-facing promenades and a ferry out to the Elephanta Caves.",
+   "intro": "Mumbai is the city finale of the Maharashtra tour. Two days cover South Mumbai's landmarks, the sea front at Marine Drive and Juhu, and the ferry to the Elephanta Caves for groups that choose it, before the night train back to Kerala from Panvel.",
+   "todo": [
+    "Gateway of India and the Taj hotel",
+    "Chhatrapati Shivaji Maharaj Terminus",
+    "Colaba market and Marine Drive",
+    "Elephanta Caves (ferry at own cost)",
+    "Bandra–Worli Sea Link and Juhu Beach",
+    "Mohammed Ali Road for food"
+   ],
+   "tips": [
+    "Keep valuables secure in crowded places like Colaba Causeway and CST.",
+    "The Elephanta ferry is at your own cost; carry some cash for it.",
+    "Mumbai traffic is unpredictable, so be at the bus on time.",
+    "Try street food at Mohammed Ali Road as a group, and carry water."
+   ]
+  },
+  {
+   "id": "chikmagalur",
+   "status": "Published",
+   "name": "Chikmagalur",
+   "hook": "The Coffee Land",
+   "state": "Karnataka",
+   "type": "Hill station",
+   "img": "r0",
+   "packs": [
+    "chikmagalur-dandeli-goa-tour",
+    "chikmagalur-dandeli-gokarna-tour"
+   ],
+   "when": "September to March, when the peaks are clear and green.",
+   "about": "Known as the coffee land of Karnataka, Chikmagalur is a hill station in the Western Ghats with trekking trails, coffee plantations, rivers and waterfalls. Mullayanagiri is the highest peak in Karnataka, and Baba Budangiri is a mountain range with pilgrimage sites.",
+   "intro": "Chikmagalur is the hill day of the Chikmagalur packages. After an overnight drive, the group goes up by jeep to the highest viewpoints in Karnataka, with lunch at the hill station and stops at falls and viewpoints through the afternoon.",
+   "todo": [
+    "Jeep ride up to Mullayanagiri Peak",
+    "Seethalayanagiri and Honnamana Falls",
+    "Kavikal Gandi and Shooting Point",
+    "Baba Budangiri",
+    "Z Point",
+    "A stop at Siri Cafe"
+   ],
+   "tips": [
+    "The peaks are windy and cool even in the dry months; carry a light jacket.",
+    "Jeep roads are rough, so carry tablets if you get travel sick.",
+    "Mullayanagiri has steps near the top; wear shoes with grip.",
+    "Mornings are clearest for photos from the peaks."
+   ]
+  },
+  {
+   "id": "gokarna",
+   "status": "Published",
+   "name": "Gokarna",
+   "hook": "The Mini Goa",
+   "state": "Karnataka",
+   "type": "Beach",
+   "img": null,
+   "packs": [
+    "chikmagalur-dandeli-gokarna-tour",
+    "dandeli-gokarna-train-tour"
+   ],
+   "when": "October to March, when the sea is calm.",
+   "about": "A temple town on the Arabian Sea in Karnataka, where pilgrims and beach travellers share the same coast. The Mahabaleshwar Temple houses the Atmalinga of Lord Shiva, Om Beach is named for its shape and is the place to watch the sunset, and Kudle Beach is a short trek away.",
+   "intro": "Gokarna is the beach stop of the Gokarna packages, quieter than Goa and known for its temple town and coves. Groups visit Om Beach and Kudle Beach for the sunset, with Yana Caves, Mirjan Fort or Murudeshwar on the way depending on the package.",
+   "todo": [
+    "Om Beach at sunset",
+    "Kudle Beach",
+    "Mirjan Fort on the way in",
+    "Yana Caves",
+    "Murudeshwar temple and beach"
+   ],
+   "tips": [
+    "The paths between Gokarna's beaches are rocky; wear sandals with grip.",
+    "Do not swim beyond the safe area: currents can be strong.",
+    "The Mahabaleshwar Temple and Murudeshwar are places of worship; dress modestly.",
+    "Carry a cap and sunscreen for the afternoon on the beach."
+   ]
+  },
+  {
+   "id": "munnar",
+   "status": "Published",
+   "name": "Munnar",
+   "hook": "The Hill Station of Kerala",
+   "state": "Kerala",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "munnar-vattavada-tour"
+   ],
+   "when": "September to March for cool, clear days.",
+   "about": "A hill station in Kerala known for its tea plantations, misty mountains and cool climate. The road winds through green tea gardens from one viewpoint to the next.",
+   "intro": "Munnar is the first half of the Munnar and Vattavada trip. The group drives up overnight, sees the tea-garden viewpoints and Gap Road on the first morning, then spends the afternoon and evening at a resort with an infinity pool, games and a campfire.",
+   "todo": [
+    "Tea garden viewpoint",
+    "Gap Road",
+    "Signal Point and Shooting Point",
+    "Infinity pool and games at the resort",
+    "Walking trek and a campfire"
+   ],
+   "tips": [
+    "Nights are cold; carry a sweater, socks and a jacket.",
+    "The road to Munnar is winding, so carry travel-sickness tablets.",
+    "Gap Road viewpoints can be windy and misty; stay behind the barriers.",
+    "Carry swimwear for the resort pool."
+   ]
+  },
+  {
+   "id": "vattavada",
+   "status": "Published",
+   "name": "Vattavada",
+   "hook": "The Hidden Paradise of Kerala",
+   "state": "Kerala",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "munnar-vattavada-tour"
+   ],
+   "when": "September to March. Carry warm clothes for the evenings.",
+   "about": "A farming village in the highlands near Munnar, surrounded by the Western Ghats. It is known for its cool climate, misty valleys, waterfalls and terraced vegetable and fruit farms.",
+   "intro": "Vattavada is the second day of the Munnar trip, a farming village in the highlands near Munnar. The afternoon is a jeep trek to waterfalls, viewpoints and the terraced vegetable and fruit farms, with time to buy fresh produce before the drive back.",
+   "todo": [
+    "Jeep trekking",
+    "Chilanthiyar Falls",
+    "Pazhathottam viewpoint",
+    "Vattavada Falls",
+    "Vegetable and fruit farms"
+   ],
+   "tips": [
+    "The jeep track is bumpy; sit firmly and keep bags on your lap.",
+    "Evenings are cold, so keep a warm layer handy.",
+    "Ask before entering or photographing farms.",
+    "Carry a little cash for fresh fruit and vegetables."
+   ]
+  },
+  {
+   "id": "wayanad",
+   "status": "Published",
+   "name": "Wayanad",
+   "hook": "The Gate of Mountains",
+   "state": "Kerala",
+   "type": "Forest & adventure",
+   "img": null,
+   "packs": [
+    "wayanad-900-woods-tour"
+   ],
+   "when": "October to May. Forest trails can close in heavy monsoon rain.",
+   "about": "A green hill district in Kerala with forests, rolling hills and waterfalls. The trip climbs by jeep into the 900 Woods forest for a resort stay, and takes in Pookode Lake and the Banasura Sagar Dam.",
+   "intro": "Wayanad is a short forest getaway. The highlight is a jeep safari up to the 900 Woods area for a resort night with a pool, forest trekking and a campfire, with Lakkidi viewpoint, a tribal village visit, Pookode Lake and Banasura Sagar Dam on either side.",
+   "todo": [
+    "Lakkidi View Point",
+    "En Ooru tribal village",
+    "Jeep safari to 900 Woods",
+    "Forest trekking, pool and campfire at the resort",
+    "Glass bridge (optional)",
+    "Pookode Lake, Banasura Sagar Dam and Karapuzha park"
+   ],
+   "tips": [
+    "Carry a jacket: nights in the forest are cool.",
+    "Wear closed shoes for the forest trek and carry leech socks in the wet months.",
+    "The glass bridge is optional and has its own rules; check before joining.",
+    "Respect the people and customs at En Ooru tribal village."
+   ]
+  },
+  {
+   "id": "ramakkalmedu",
+   "status": "Published",
+   "name": "Ramakkalmedu",
+   "hook": "The Natural Beauty",
+   "state": "Kerala",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "ramakkalmedu-kodaikanal-tour"
+   ],
+   "when": "September to March for clear views and steady wind on the ridge.",
+   "about": "A hill station in Idukki, Kerala, at about 3,500 feet, with wide views over the mountains, valleys and villages below. Windmills line the ridge and the sunset turns the sky gold and crimson.",
+   "intro": "Ramakkalmedu is a windy ridge in Idukki on the Kerala and Tamil Nadu border. The group spends a full day there: a jeep safari to Amappara and the caves in the morning, a walking trek after lunch, sunset from the ridge and a campfire with DJ at night.",
+   "todo": [
+    "Jeep safari to Amappara and its caves",
+    "Kattadippara",
+    "Ramankallu viewpoint and sunset",
+    "Kuravan Kurathi statue",
+    "Walking trek",
+    "Campfire with DJ"
+   ],
+   "tips": [
+    "It is very windy on the ridge; hold on to caps and phones.",
+    "Wear shoes with grip for the rocky viewpoints and caves.",
+    "Stay well back from cliff edges at the viewpoints.",
+    "Carry a warm layer for the campfire night."
+   ]
+  },
+  {
+   "id": "kodaikanal",
+   "status": "Published",
+   "name": "Kodaikanal",
+   "hook": "The Princess of Hills",
+   "state": "Tamil Nadu",
+   "type": "Hill station",
+   "img": null,
+   "packs": [
+    "ramakkalmedu-kodaikanal-tour"
+   ],
+   "when": "October to June. Carry warm clothes all year.",
+   "about": "A hill station in the Palani hills of Tamil Nadu, called the Princess of Hill Stations. It is built around the star-shaped Kodai Lake, with valleys, tall cliffs and pine forest around it.",
+   "intro": "Kodaikanal is the second day of the Ramakkalmedu trip. The group drives across to Tamil Nadu in the morning, passing the Cumbum and Theni grape farms if time allows, and covers the main viewpoints, caves and forest in the afternoon before an evening at Kodai Lake.",
+   "todo": [
+    "Moir Point",
+    "Guna Caves",
+    "Pillar Rocks",
+    "Suicide Point",
+    "Pine forest",
+    "Kodai Lake and shopping"
+   ],
+   "tips": [
+    "Carry a sweater or jacket: it is cool all year.",
+    "Viewpoints like Pillar Rocks can be covered in mist; be patient for the view.",
+    "Stay on marked paths at Guna Caves and cliff viewpoints.",
+    "Kodai Lake's market is good for chocolates and souvenirs."
+   ]
+  }
+ ],
+ "gallery": [
+  {
+   "key": "r0",
+   "cap": "A Trip Campus group on tour",
+   "dest": "chikmagalur"
+  },
+  {
+   "key": "r1",
+   "cap": "A Trip Campus group on tour",
+   "dest": "dandeli"
+  },
+  {
+   "key": "r2",
+   "cap": "A Trip Campus group on tour",
+   "dest": "hampi"
+  },
+  {
+   "key": "r3",
+   "cap": "A Trip Campus group on tour",
+   "dest": null
+  },
+  {
+   "key": "r4",
+   "cap": "MES KVM Arts & Science College, Valanchery · BCA",
+   "dest": "hampi"
+  },
+  {
+   "key": "r5",
+   "cap": "Vidya Academy of Science & Technology, Thrissur · Computer Science",
+   "dest": null
+  },
+  {
+   "key": "r6",
+   "cap": "Al Shifa College of Allied Healthcare, Perinthalmanna · BSc Optometry",
+   "dest": null
+  },
+  {
+   "key": "r7",
+   "cap": "A Trip Campus group on tour",
+   "dest": null
+  },
+  {
+   "key": "r8",
+   "cap": "Assabah Arts & Science College, Valayamkulam · Psychology",
+   "dest": null
+  },
+  {
+   "key": "r9",
+   "cap": "Srinivas University of Physiotherapy, Mangalore",
+   "dest": "dandeli"
+  },
+  {
+   "key": "r10",
+   "cap": "PACIOLI Gurukul CA AMA ACCA Campus, Valanchery",
+   "dest": null
+  },
+  {
+   "key": "r11",
+   "cap": "Assabah Arts & Science College, Valayamkulam · BCA",
+   "dest": "hampi"
+  },
+  {
+   "key": "r12",
+   "cap": "Assabah Arts & Science College, Valayamkulam · Food Technology",
+   "dest": null
+  },
+  {
+   "key": "r13",
+   "cap": "Vidya Academy of Science & Technology, Thrissur · Civil Engineering",
+   "dest": null
+  },
+  {
+   "key": "r14",
+   "cap": "Mar Osthatheos College, Perumbilavu · BCom Finance",
+   "dest": null
+  },
+  {
+   "key": "r15",
+   "cap": "Mar Osthatheos College, Perumbilavu · BCom Advanced Finance",
+   "dest": null
+  },
+  {
+   "key": "r16",
+   "cap": "Govt Polytechnic College, Kunnamkulam · Computer Engineering",
+   "dest": null
+  },
+  {
+   "key": "r17",
+   "cap": "Govt Polytechnic College, Kunnamkulam · Electronics & Communication",
+   "dest": null
+  },
+  {
+   "key": "r18",
+   "cap": "Assabah Arts & Science College, Valayamkulam · Geology & Chemistry",
+   "dest": null
+  },
+  {
+   "key": "r19",
+   "cap": "A Trip Campus group on tour",
+   "dest": null
+  },
+  {
+   "key": "r20",
+   "cap": "A Trip Campus group on tour",
+   "dest": null
+  }
+ ],
+ "images": {
+  "c3": {
+   "slug": "trip-campus-group-dandeli",
+   "w": 3327,
+   "h": 1809,
+   "ws": [
+    480,
+    960,
+    1600
+   ],
+   "fb": 960
+  },
+  "c13": {
+   "slug": "trip-campus-group-hampi-stepped-tank",
+   "w": 3327,
+   "h": 2267,
+   "ws": [
+    480,
+    960,
+    1600
+   ],
+   "fb": 960
+  },
+  "c14": {
+   "slug": "trip-campus-group-beach",
+   "w": 3327,
+   "h": 1809,
+   "ws": [
+    480,
+    960,
+    1600
+   ],
+   "fb": 960
+  },
+  "c0": {
+   "slug": "trip-campus-group-hampi",
+   "w": 1024,
+   "h": 557,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "c6": {
+   "slug": "trip-campus-group-hampi-arches",
+   "w": 1024,
+   "h": 557,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r0": {
+   "slug": "trip-campus-group-tour-1",
+   "w": 4032,
+   "h": 3024,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r1": {
+   "slug": "trip-campus-group-tour-2",
+   "w": 3024,
+   "h": 4032,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r2": {
+   "slug": "trip-campus-group-tour-3",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r3": {
+   "slug": "trip-campus-group-tour-4",
+   "w": 3644,
+   "h": 2733,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r4": {
+   "slug": "trip-campus-group-mes-kvm-arts-science-college-valanchery-5",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r5": {
+   "slug": "trip-campus-group-vidya-academy-of-science-technology-thrissur-6",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r6": {
+   "slug": "trip-campus-group-al-shifa-college-of-allied-healthcare-perinthalm-7",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r7": {
+   "slug": "trip-campus-group-tour-8",
+   "w": 2776,
+   "h": 3701,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r8": {
+   "slug": "trip-campus-group-assabah-arts-science-college-valayamkulam-9",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r9": {
+   "slug": "trip-campus-group-srinivas-university-of-physiotherapy-mangalore-10",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r10": {
+   "slug": "trip-campus-group-pacioli-gurukul-ca-ama-acca-campus-valanchery-11",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r11": {
+   "slug": "trip-campus-group-assabah-arts-science-college-valayamkulam-12",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r12": {
+   "slug": "trip-campus-group-assabah-arts-science-college-valayamkulam-13",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r13": {
+   "slug": "trip-campus-group-vidya-academy-of-science-technology-thrissur-14",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r14": {
+   "slug": "trip-campus-group-mar-osthatheos-college-perumbilavu-15",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r15": {
+   "slug": "trip-campus-group-mar-osthatheos-college-perumbilavu-16",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r16": {
+   "slug": "trip-campus-group-govt-polytechnic-college-kunnamkulam-17",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r17": {
+   "slug": "trip-campus-group-govt-polytechnic-college-kunnamkulam-18",
+   "w": 3327,
+   "h": 4160,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r18": {
+   "slug": "trip-campus-group-assabah-arts-science-college-valayamkulam-19",
+   "w": 1024,
+   "h": 1280,
+   "ws": [
+    480,
+    960,
+    1024
+   ],
+   "fb": 960
+  },
+  "r19": {
+   "slug": "trip-campus-group-tour-20",
+   "w": 2047,
+   "h": 2560,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  },
+  "r20": {
+   "slug": "trip-campus-group-tour-21",
+   "w": 2047,
+   "h": 2560,
+   "ws": [
+    480,
+    960,
+    1400
+   ],
+   "fb": 960
+  }
+ },
+ "ogCards": [
+  "dest-chikmagalur",
+  "dest-dandeli",
+  "dest-goa",
+  "dest-gokarna",
+  "dest-hampi",
+  "dest-kodaikanal",
+  "dest-lonavala",
+  "dest-matheran",
+  "dest-mumbai",
+  "dest-munnar",
+  "dest-ramakkalmedu",
+  "dest-vattavada",
+  "dest-wayanad",
+  "pkg-chikmagalur-dandeli-goa-tour",
+  "pkg-chikmagalur-dandeli-gokarna-tour",
+  "pkg-dandeli-goa-train-tour",
+  "pkg-dandeli-gokarna-train-tour",
+  "pkg-hampi-dandeli-goa-tour",
+  "pkg-lonavala-matheran-mumbai-tour",
+  "pkg-munnar-vattavada-tour",
+  "pkg-ramakkalmedu-kodaikanal-tour",
+  "pkg-wayanad-900-woods-tour",
+  "trip-campus",
+  "trip-campus-group-beach",
+  "trip-campus-group-dandeli",
+  "trip-campus-group-hampi",
+  "trip-campus-group-hampi-arches",
+  "trip-campus-group-hampi-stepped-tank",
+  "trip-campus-group-tour-1",
+  "trip-campus-group-tour-2"
+ ],
+ "common": {
+  "excluded": [
+   "Camera and video camera fees inside monuments",
+   "Travel insurance and any personal expenses",
+   "Any other service not mentioned in the package"
+  ],
+  "carry": [
+   "Medicines for headache, cold and travel sickness",
+   "A cap and your ID card",
+   "Sweater, jacket, scarf or other warm wear",
+   "Lotion, lip balm, woollen socks and gloves"
+  ],
+  "notes": [
+   "Everyone in the group needs to keep to the trip timings so the full plan can be covered.",
+   "Trip Campus is not responsible for delays caused by natural calamities or by bus or train timings."
+  ],
+  "breakfast": "Bread and jam, puttu and kadala, idli, vada, dosa, poori, bhaji, parotta, chapathi, tea and coffee",
+  "meals": "Veg meals, fish fry meals, chicken biryani, chicken curry, ghee rice, chilli chicken, chapathi, parotta, fried rice, chicken 65, alfaham and mandi"
+ },
+ "services": [
+  [
+   "Travel",
+   [
+    [
+     "Tour packages",
+     "Group tours by train and bus, with stay, meals and sightseeing arranged.",
+     "M3 20h18M5 20l3-9 4 5 3-7 4 11",
+     "#packages"
+    ],
+    [
+     "Flight tickets",
+     "Domestic and international tickets booked for you.",
+     "M21 4l-9 9M21 4l-6 16-3-7-7-3z"
+    ],
+    [
+     "Hotel booking",
+     "Rooms booked for families, groups and work trips.",
+     "M4 20V6h10v14M14 10h6v10M2 20h20M8 10h2M8 14h2"
+    ],
+    [
+     "Car rentals",
+     "Cars and tourist vehicles for local travel and tours.",
+     "M4 16v-3l2-5h12l2 5v3M4 16h16M7 16v2M17 16v2M6 13h12"
+    ],
+    [
+     "Insurance services",
+     "Insurance cover arranged along with your trip.",
+     "M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4"
+    ]
+   ]
+  ],
+  [
+   "Documents",
+   [
+    [
+     "Visa service",
+     "Help with visa applications and the paperwork they need.",
+     "M5 3h14v18H5zM9 8h6M9 12h6M9 16h3"
+    ],
+    [
+     "Passport service",
+     "Help with new passport applications and renewals.",
+     "M6 3h12v18H6zM12 13a3 3 0 100-6 3 3 0 000 6zM9 17h6"
+    ],
+    [
+     "Certificate attesting",
+     "Attestation of certificates for work or study abroad.",
+     "M5 4h14v11H5zM9 8h6M12 15v5l-2-1.5M12 20l2-1.5"
+    ]
+   ]
+  ],
+  [
+   "Pilgrimage and business",
+   [
+    [
+     "Hajj and Umrah services",
+     "Travel arrangements for Hajj and Umrah pilgrims.",
+     "M5 9h14v11H5zM5 13h14M12 9V5M9 5h6M11 20v-4h2v4"
+    ],
+    [
+     "Business support",
+     "Travel arrangements for businesses and their teams.",
+     "M4 8h16v11H4zM9 8V5h6v3M4 13h16"
+    ]
+   ]
+  ]
+ ],
+ "iv": {
+  "slug": "iv-industrial-visit-study-tour-packages",
+  "title": "IV Packages from Kerala – Industrial Visit & Study Tours",
+  "desc": "IV (industrial visit) and study tour packages from Kerala for colleges: 3 to 6 day trips by train or bus, with stay, meals and tickets included.",
+  "h1": "IV and study tour packages from Kerala",
+  "lead": "In Kerala colleges the class trip is often called an IV (industrial visit) or a study tour. Trip Campus plans these trips for departments and classes from start to finish: train or tourist bus, rooms, three meals a day, entry tickets and sightseeing.",
+  "why": [
+   [
+    "Planned for college groups",
+    "Packages are built around class trips, with 21 to 49-seat tourist buses depending on the size of the group."
+   ],
+   [
+    "Everything booked",
+    "Train tickets or a tourist bus for the whole route, rooms on a share basis, meals and entry tickets are arranged before you leave."
+   ],
+   [
+    "Fixed day-by-day plan",
+    "Every package has a full itinerary, so you can share it with your department and parents before the trip."
+   ],
+   [
+    "One contact for the trip",
+    "Plan everything with Trip Campus on WhatsApp or a call, from the first quote to the return journey."
+   ]
+  ],
+  "faqs": [
+   [
+    "What is an IV tour?",
+    "IV stands for industrial visit. In many Kerala colleges the term is used for the department or class tour, which usually combines travel and sightseeing over 3 to 6 days. Some courses also include a visit to a company or institution."
+   ],
+   [
+    "Can a company or institution visit be added to the IV?",
+    "Tell Trip Campus which kind of visit your department needs and on which route. Trip Campus will tell you whether it can be fitted into the plan."
+   ],
+   [
+    "Which packages are best for an IV or study tour?",
+    "For 5 to 6 days, the Karnataka and Goa train tours (Dandeli and Goa, Hampi, Dandeli and Goa, or Chikmagalur, Dandeli and Goa) and Lonavala, Matheran and Mumbai are the most complete. For a shorter trip, Dandeli and Gokarna takes 4 days, and the Kerala hill trips take 3."
+   ],
+   [
+    "What documents should students carry?",
+    "Each student should carry a college ID card and a government photo ID. Your college may also ask for a permission letter and parent consent before the trip."
+   ],
+   [
+    "How is the price worked out?",
+    "The price depends on the package, the number of students, travel dates and the boarding point. Send your group details on WhatsApp for a quote."
+   ],
+   [
+    "Do teachers travel free?",
+    "Ask Trip Campus when you request a quote; staff arrangements are agreed with each group."
+   ]
+  ]
+ },
+ "guides": [
+  {
+   "slug": "best-college-tour-destinations-from-kerala",
+   "title": "Best College Tour Destinations from Kerala (2026 Guide)",
+   "desc": "The best college tour and IV destinations from Kerala for 3 to 6 day trips: Goa, Dandeli, Hampi, Gokarna, Chikmagalur, Mumbai, Munnar, Wayanad and Kodaikanal.",
+   "h1": "Best college tour destinations from Kerala",
+   "kicker": "Trip planning guide",
+   "lead": "Picking a destination is the first decision for any college tour or IV. This guide groups the places Trip Campus goes by how many days you have, and explains what each trip is best for.",
+   "sections": "DEST_GUIDE"
+  },
+  {
+   "slug": "dandeli-vs-gokarna-college-trip",
+   "title": "Dandeli vs Gokarna for a College Trip: Which to Choose?",
+   "desc": "Dandeli or Gokarna for your college trip? Compare rafting and forest stays in Dandeli with Gokarna's beaches and temples, or do both in one 4-day tour.",
+   "h1": "Dandeli vs Gokarna for a college trip",
+   "kicker": "Destination comparison",
+   "lead": "Dandeli and Gokarna are close to each other in north Karnataka but give a very different day out. Here is how they compare for a college group, and why most groups end up doing both.",
+   "sections": "DVG"
+  },
+  {
+   "slug": "college-tour-planning-checklist",
+   "title": "College Tour Planning Checklist for Kerala Colleges",
+   "desc": "Checklist for planning a college tour or IV from Kerala: dates, group size, permissions, packing list and what to confirm with your tour operator.",
+   "h1": "College tour planning checklist",
+   "kicker": "Checklist",
+   "lead": "Whether you are the class representative or the staff coordinator, this checklist covers what to decide and in what order, so your college tour or IV runs smoothly.",
+   "sections": "CHECK"
+  },
+  {
+   "slug": "3-day-trips-from-kerala-for-groups",
+   "title": "3-Day Group Trips in Kerala: Munnar, Wayanad, Ramakkalmedu",
+   "desc": "Short on days? Compare three 3-day group trips by bus from Kerala: Munnar and Vattavada, Wayanad 900 Woods, and Ramakkalmedu and Kodaikanal.",
+   "h1": "3-day group trips from Kerala",
+   "kicker": "Short trips",
+   "lead": "Not every group can take a week off. These three bus trips leave from your college at night and are back by the third night, with one full day in the hills and one resort or campfire night.",
+   "sections": "SHORT"
+  }
+ ],
+ "checklist": [
+  [
+   "Fix the dates early",
+   "Agree on the month with your department first. Train-based tours need tickets booked well ahead, and popular months fill quickly."
+  ],
+  [
+   "Count the group",
+   "Get a firm number of students and staff. Group size decides the bus size, rooms and the price per head."
+  ],
+  [
+   "Choose the trip length",
+   "3 days suits the Kerala hill trips; 4 to 6 days covers Karnataka, Goa or Maharashtra by train."
+  ],
+  [
+   "Get permissions",
+   "Most colleges need a permission letter from the principal and consent from parents. Start this as soon as the dates are fixed."
+  ],
+  [
+   "Ask for a full itinerary and quote",
+   "Share group size, month and boarding point with the tour operator. Check what is included: transport, rooms, meals, entry tickets, toll and parking."
+  ],
+  [
+   "Check what is not included",
+   "Camera fees at monuments, travel insurance, optional activities and personal expenses are usually extra."
+  ],
+  [
+   "Collect ID details",
+   "Train tickets and hotels need names and ages, and everyone should carry a college ID and a government photo ID."
+  ],
+  [
+   "Share the plan",
+   "Send the day-by-day plan, emergency numbers and packing list to students and parents before the trip."
+  ],
+  [
+   "Pack right",
+   "Medicines for travel sickness, headache and cold; caps; ID cards; warm clothes for hill stations; quick-dry clothes for river activities."
+  ],
+  [
+   "Keep to time on the trip",
+   "Most of a tour's plan depends on the group being on the bus on time. Agree on a meeting rule before you leave."
+  ]
+ ],
+ "published": "2026-10-11",
+ "meta": {
+  "updatedAt": null,
+  "updatedBy": null,
+  "publishedAt": null,
+  "dirty": true
+ }
+}

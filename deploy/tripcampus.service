@@ -1,0 +1,19 @@
+[Unit]
+Description=Trip Campus website app (admin API and enquiries)
+After=network.target
+
+[Service]
+User=tripcampus
+Group=tripcampus
+ExecStart=/usr/bin/python3 /opt/tripcampus/app.py
+Restart=always
+RestartSec=3
+Environment=PYTHONUNBUFFERED=1
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/tripcampus /var/www/tripcampus /etc/tripcampus
+
+[Install]
+WantedBy=multi-user.target
